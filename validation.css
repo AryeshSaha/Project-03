@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.col-md-6{
+    margin-top: 7rem;
+    background-color: white;
+    padding: 3rem 7rem;
+}
+
+input{
+    margin-top: 1rem;
+    padding: .7rem !important;
+}
+
+button{
+    margin: 1.3rem 0;
+    width: 100%;
+}
+
+.suc{
+    border-color: green;
+}
+
+.err{
+    border-color: red;
+}
+
+small{
+    color: red;
+}
