@@ -4,18 +4,26 @@
     margin: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+
 html{
     height: 100%;
 }
 
 body{
-    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background-image: linear-gradient(to top, #d2dcdc 0%, #230646 100%);
+    font-family: 'Dangrek', cursive;
 }
 
 .col-md-6{
     margin-top: 7rem;
-    background-color: white;
+    /* background-color: white; */
+    border-radius: 5px;
     padding: 3rem 7rem;
+}
+
+h1{
+    color:aliceblue;
 }
 
 input{
@@ -26,16 +34,18 @@ input{
 button{
     margin: 1.3rem 0;
     width: 100%;
+    background-color: #230646 !important;
+    color: aliceblue !important;
 }
 
 .suc{
-    border-color: green;
+    border: 2px solid green;
 }
 
 .err{
-    border-color: red;
+    border: 2px solid red;
 }
 
 small{
-    color: red;
+    color: aliceblue;
 }
