@@ -44,7 +44,6 @@ const chekPass = (pass) => {
   }
 };
 const matchCPass = (pass, cpass) => {
-
   if (cpass != pass) {
     document.getElementById("cpass").classList.add("err");
     document.getElementById("cpass_err").innerHTML = "must be same password!";
@@ -56,7 +55,7 @@ const matchCPass = (pass, cpass) => {
 
   if (pass == "" && cpass == "") {
     document.getElementById("cpass").classList.add("err");
-    document.getElementById("cpass_err").innerHTML = "must be same password!";
+    document.getElementById("pass_err").innerHTML = "cannot be empty!";
+    document.getElementById("cpass_err").innerHTML = "cannot be empty!";
   }
-
 };
